@@ -45,7 +45,7 @@ makeDirs($target, $max_breadth_dir, $max_depth_dir);
 sub usage {
     print "\n\nUsage: $0 ", '<target_dir> <file_count/directory> <min_filesize_kb> <max_filesize_kb> <max_depth_dir> <max_breadth_dir>', "\n\n";
     print "Specify the same <min_filesize_kb> and <max_filesize_kb> value if you want to create files of equal size\n\n";
-    print "Example : perl test.pl \\mnt\\dir1 3 100 150 3 3\n\n";
+    print "Example : perl $0 /mnt/dir1 3 100 150 3 3\n\n";
     exit(1);
 }
 #########################################################################
